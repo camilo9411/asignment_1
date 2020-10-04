@@ -2,7 +2,7 @@ from os import system, name
 
 #Funtion main
 def main():
-    myList = [5,5,35,40,60,80,5,35]
+    myList = []
     choise = ' '
     while (choise != 'Q'):
         system('cls')
@@ -14,7 +14,7 @@ def main():
         print('L - Display the largest number')
         print('F - Search for a number in the list')
         print('Q - Quit')
-        choise = input('Enter your Choise: ')
+        choise = input('Enter your Choice: ')
         choise = choise.upper()
         if choise == 'P':
             system('cls')
